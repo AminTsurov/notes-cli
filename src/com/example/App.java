@@ -45,6 +45,10 @@ public class App {
                     }
                 }
                 break;
+                
+            case "count":
+                System.out.println(store.list().size());
+                break;
 
             default:
                 System.out.println("Unknown command");
